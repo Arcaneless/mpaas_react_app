@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* mpaas_react_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mpaas_react_appTests.m */; };
+		0B7EE4416E18238AB31B78E6 /* DTFrameworkInterface+mpaas_react_app.m in Sources */ = {isa = PBXBuildFile; fileRef = 8082A031FE51576FD74022D7 /* DTFrameworkInterface+mpaas_react_app.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-mpaas_react_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-mpaas_react_app.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1DB570812139F3E1909F23E8 /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A0F5C2C4819D9DC49CEB4 /* meta.config */; };
+		24FA5AEE8C1ED2F29AD4AEAC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815F35BF6F7852823D1E336D /* CoreTelephony.framework */; };
+		252448F92823CA8300DA50DB /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252448F82823CA8300DA50DB /* CustomNavigationController.m */; };
+		252448FC2823CC9E00DA50DB /* RCTMiniAppModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 252448FB2823CC9E00DA50DB /* RCTMiniAppModule.m */; };
+		2A93CE6494E4CA805D87589D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4146855BFA45E67D3E30EB5 /* MessageUI.framework */; };
+		2AB6F79BA9B3AE703B2155E2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815F35BF6F7852823D1E336D /* CoreTelephony.framework */; };
+		2FD89DF88B22C843F0BCD7E5 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1F62678FFBD9F363CFD40D /* yw_1222.jpg */; };
+		40BD4E855F83C49ABF18E45F /* DTFrameworkInterface+mpaas_react_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA8C1EE88FF72506BDBE8A /* DTFrameworkInterface+mpaas_react_appTests.m */; };
+		458B3970251EC766DC660B1F /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9650B41FE5660EACA6499A7 /* MobileRuntime.plist */; };
+		4D4991195821F34C0B417934 /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5906BEC064704F4BC5BA8B71 /* MobileRuntime.plist */; };
+		4DD30F7819B06A94C9209348 /* Images_mPaaS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA86A0FB66C95DB4366966C /* Images_mPaaS.xcassets */; };
+		5CDC0354646AB535A9E8A6CA /* Images_mPaaS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97441780830E62FF512585AE /* Images_mPaaS.xcassets */; };
+		5CE57A6B7241B7B7DA431B87 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F62EC30A7CD891206683B8 /* DemoViewController.m */; };
+		6FC16EFFC42D175AFE97D45A /* MPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C213DFF24292DF97534D80 /* MPTabBarController.m */; };
+		764BE1EF91FC29C3146070AA /* MPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB9ABB04E2388AC6FFF7F8A /* MPTabBarController.m */; };
+		7699B88040F8A987B510C191 /* libPods-mpaas_react_app-mpaas_react_appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-mpaas_react_app-mpaas_react_appTests.a */; };
+		7B1923D50918F3572A500687 /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = DAB54ADD23689566EB666F8E /* meta.config */; };
+		7BE8E4B908200FC91EE1F06E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67449FD4D7855BDA950A37EC /* SystemConfiguration.framework */; };
+		7FD1CCE8173C19849F3B4A07 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928465D5EBBFB58894A37E34 /* DemoViewController.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		842C3F953DB6E6206276CF2E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4146855BFA45E67D3E30EB5 /* MessageUI.framework */; };
+		ADF100C201C56E970DB21329 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67449FD4D7855BDA950A37EC /* SystemConfiguration.framework */; };
+		B2C482B34A10A2F3BCC90468 /* MPLauncherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9242AE00DE59133AE68471C /* MPLauncherAppDelegate.m */; };
+		B8526D97FD41F4E06CAC5908 /* MPaaSInterface+mpaas_react_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B24761D263F3DE306F38016 /* MPaaSInterface+mpaas_react_appTests.m */; };
+		C5169C241C339351BA2305CF /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 497FD645926533FD0F1FA346 /* yw_1222.jpg */; };
+		C8B2B249FD32AEEE4D179717 /* MPaaSInterface+mpaas_react_app.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB1B1C47DBDAC84CC88E3F3 /* MPaaSInterface+mpaas_react_app.m */; };
+		EE33E9ED0E6FFD11D35FED95 /* MPLauncherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A51D903120A688612BBA2BF /* MPLauncherAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = mpaas_react_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* mpaas_react_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mpaas_react_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* mpaas_react_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mpaas_react_appTests.m; sourceTree = "<group>"; };
+		06E066E43FF0C2B03EC787E1 /* MPaaSInterface+mpaas_react_app.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+mpaas_react_app.h"; sourceTree = "<group>"; };
+		0E0A0F5C2C4819D9DC49CEB4 /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* mpaas_react_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mpaas_react_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mpaas_react_app/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = mpaas_react_app/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mpaas_react_app/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mpaas_react_app/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mpaas_react_app/main.m; sourceTree = "<group>"; };
+		187F8AD22F80E2126BC0F676 /* MPTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPTabBarController.h; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-mpaas_react_app-mpaas_react_appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mpaas_react_app-mpaas_react_appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D81EA4B13A614239B00BD8 /* mpaas_react_appTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "mpaas_react_appTests-Prefix.pch"; path = "../../../mpaas_react_appTests/mpaas_react_appTests-Prefix.pch"; sourceTree = "<group>"; };
+		21C213DFF24292DF97534D80 /* MPTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPTabBarController.m; sourceTree = "<group>"; };
+		252448F72823CA7700DA50DB /* CustomNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		252448F82823CA8300DA50DB /* CustomNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		252448FA2823CC9800DA50DB /* RCTMiniAppModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTMiniAppModule.h; sourceTree = "<group>"; };
+		252448FB2823CC9E00DA50DB /* RCTMiniAppModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTMiniAppModule.m; sourceTree = "<group>"; };
+		3601E5F6B81663EC3E54C69D /* mpaas_react_appTests-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mpaas_react_appTests-mPaaS-Headers.h"; sourceTree = "<group>"; };
+		3B24761D263F3DE306F38016 /* MPaaSInterface+mpaas_react_appTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+mpaas_react_appTests.m"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-mpaas_react_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mpaas_react_app.debug.xcconfig"; path = "Target Support Files/Pods-mpaas_react_app/Pods-mpaas_react_app.debug.xcconfig"; sourceTree = "<group>"; };
+		497FD645926533FD0F1FA346 /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		4DFFB19D149BFE28B8A60AD7 /* DTFrameworkInterface+mpaas_react_appTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTFrameworkInterface+mpaas_react_appTests.h"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-mpaas_react_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mpaas_react_app.release.xcconfig"; path = "Target Support Files/Pods-mpaas_react_app/Pods-mpaas_react_app.release.xcconfig"; sourceTree = "<group>"; };
+		5906BEC064704F4BC5BA8B71 /* MobileRuntime.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = MobileRuntime.plist; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-mpaas_react_app-mpaas_react_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mpaas_react_app-mpaas_react_appTests.debug.xcconfig"; path = "Target Support Files/Pods-mpaas_react_app-mpaas_react_appTests/Pods-mpaas_react_app-mpaas_react_appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-mpaas_react_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mpaas_react_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67449FD4D7855BDA950A37EC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		6A51D903120A688612BBA2BF /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
+		74E527DD1DF325054C71262D /* DemoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		795EE94C29B0D6DA465F0162 /* mpaas_react_app-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "mpaas_react_app-Prefix.pch"; path = "../../../mpaas_react_app/mpaas_react_app-Prefix.pch"; sourceTree = "<group>"; };
+		7DB1B1C47DBDAC84CC88E3F3 /* MPaaSInterface+mpaas_react_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+mpaas_react_app.m"; sourceTree = "<group>"; };
+		7FAA8C1EE88FF72506BDBE8A /* DTFrameworkInterface+mpaas_react_appTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTFrameworkInterface+mpaas_react_appTests.m"; sourceTree = "<group>"; };
+		8082A031FE51576FD74022D7 /* DTFrameworkInterface+mpaas_react_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTFrameworkInterface+mpaas_react_app.m"; sourceTree = "<group>"; };
+		815F35BF6F7852823D1E336D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mpaas_react_app/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-mpaas_react_app-mpaas_react_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mpaas_react_app-mpaas_react_appTests.release.xcconfig"; path = "Target Support Files/Pods-mpaas_react_app-mpaas_react_appTests/Pods-mpaas_react_app-mpaas_react_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		928465D5EBBFB58894A37E34 /* DemoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		97441780830E62FF512585AE /* Images_mPaaS.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images_mPaaS.xcassets; sourceTree = "<group>"; };
+		99C0492B1AB95CDAA9AE2D11 /* MPTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPTabBarController.h; sourceTree = "<group>"; };
+		9BA86A0FB66C95DB4366966C /* Images_mPaaS.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images_mPaaS.xcassets; sourceTree = "<group>"; };
+		9EBB1F414FA11B0D2A08CBFC /* mpaas_react_app-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mpaas_react_app-mPaaS-Headers.h"; sourceTree = "<group>"; };
+		9FFF0B0C4AD3001FAE8A672E /* MPLauncherAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLauncherAppDelegate.h; sourceTree = "<group>"; };
+		ACB9ABB04E2388AC6FFF7F8A /* MPTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPTabBarController.m; sourceTree = "<group>"; };
+		BC1F62678FFBD9F363CFD40D /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		C9650B41FE5660EACA6499A7 /* MobileRuntime.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = MobileRuntime.plist; sourceTree = "<group>"; };
+		D42E77EC1511D052C7751FDE /* MPaaSInterface+mpaas_react_appTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+mpaas_react_appTests.h"; sourceTree = "<group>"; };
+		DAB54ADD23689566EB666F8E /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
+		E4146855BFA45E67D3E30EB5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		E9242AE00DE59133AE68471C /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
+		E9C223E407ED4A3A31A224C3 /* DTFrameworkInterface+mpaas_react_app.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTFrameworkInterface+mpaas_react_app.h"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F0D0FFC393402A0E7A3A6B2F /* DemoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		F3F62EC30A7CD891206683B8 /* DemoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		FC8315A760FE32ADE5FA71B2 /* MPLauncherAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLauncherAppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-mpaas_react_app-mpaas_react_appTests.a in Frameworks */,
+				2AB6F79BA9B3AE703B2155E2 /* CoreTelephony.framework in Frameworks */,
+				7BE8E4B908200FC91EE1F06E /* SystemConfiguration.framework in Frameworks */,
+				842C3F953DB6E6206276CF2E /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-mpaas_react_app.a in Frameworks */,
+				24FA5AEE8C1ED2F29AD4AEAC /* CoreTelephony.framework in Frameworks */,
+				ADF100C201C56E970DB21329 /* SystemConfiguration.framework in Frameworks */,
+				2A93CE6494E4CA805D87589D /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* mpaas_react_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* mpaas_react_appTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = mpaas_react_appTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07B8AFD29705EA46B9E2C2EF /* APMobileFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E9C223E407ED4A3A31A224C3 /* DTFrameworkInterface+mpaas_react_app.h */,
+				8082A031FE51576FD74022D7 /* DTFrameworkInterface+mpaas_react_app.m */,
+				C9650B41FE5660EACA6499A7 /* MobileRuntime.plist */,
+				9BA86A0FB66C95DB4366966C /* Images_mPaaS.xcassets */,
+				9FFF0B0C4AD3001FAE8A672E /* MPLauncherAppDelegate.h */,
+				E9242AE00DE59133AE68471C /* MPLauncherAppDelegate.m */,
+				99C0492B1AB95CDAA9AE2D11 /* MPTabBarController.h */,
+				ACB9ABB04E2388AC6FFF7F8A /* MPTabBarController.m */,
+				74E527DD1DF325054C71262D /* DemoViewController.h */,
+				928465D5EBBFB58894A37E34 /* DemoViewController.m */,
+			);
+			path = APMobileFramework;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* mpaas_react_app */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				252448F72823CA7700DA50DB /* CustomNavigationController.h */,
+				252448F82823CA8300DA50DB /* CustomNavigationController.m */,
+				252448FA2823CC9800DA50DB /* RCTMiniAppModule.h */,
+				252448FB2823CC9E00DA50DB /* RCTMiniAppModule.m */,
+			);
+			name = mpaas_react_app;
+			sourceTree = "<group>";
+		};
+		25792374E72323AFF76B114A /* MPaaS */ = {
+			isa = PBXGroup;
+			children = (
+				55502DEDE4F60075401B8317 /* Targets */,
+			);
+			path = MPaaS;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-mpaas_react_app.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-mpaas_react_app-mpaas_react_appTests.a */,
+				7C827617BB2FDAA2458204AD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DE2CF86852E9CE48C3594A4 /* APMobileFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4DFFB19D149BFE28B8A60AD7 /* DTFrameworkInterface+mpaas_react_appTests.h */,
+				7FAA8C1EE88FF72506BDBE8A /* DTFrameworkInterface+mpaas_react_appTests.m */,
+				5906BEC064704F4BC5BA8B71 /* MobileRuntime.plist */,
+				97441780830E62FF512585AE /* Images_mPaaS.xcassets */,
+				FC8315A760FE32ADE5FA71B2 /* MPLauncherAppDelegate.h */,
+				6A51D903120A688612BBA2BF /* MPLauncherAppDelegate.m */,
+				187F8AD22F80E2126BC0F676 /* MPTabBarController.h */,
+				21C213DFF24292DF97534D80 /* MPTabBarController.m */,
+				F0D0FFC393402A0E7A3A6B2F /* DemoViewController.h */,
+				F3F62EC30A7CD891206683B8 /* DemoViewController.m */,
+			);
+			path = APMobileFramework;
+			sourceTree = "<group>";
+		};
+		324FEC2F07570D22482F52F4 /* mpaas_react_app */ = {
+			isa = PBXGroup;
+			children = (
+				DAB54ADD23689566EB666F8E /* meta.config */,
+				497FD645926533FD0F1FA346 /* yw_1222.jpg */,
+				9EBB1F414FA11B0D2A08CBFC /* mpaas_react_app-mPaaS-Headers.h */,
+				795EE94C29B0D6DA465F0162 /* mpaas_react_app-Prefix.pch */,
+				5A496FBCA6AC95F9D0E1CABC /* mPaas */,
+				07B8AFD29705EA46B9E2C2EF /* APMobileFramework */,
+			);
+			path = mpaas_react_app;
+			sourceTree = "<group>";
+		};
+		405B8AC54CD9C8B7525B01FE /* mpaas_react_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A0F5C2C4819D9DC49CEB4 /* meta.config */,
+				BC1F62678FFBD9F363CFD40D /* yw_1222.jpg */,
+				3601E5F6B81663EC3E54C69D /* mpaas_react_appTests-mPaaS-Headers.h */,
+				20D81EA4B13A614239B00BD8 /* mpaas_react_appTests-Prefix.pch */,
+				DE478A33969CB556FEB7ABC0 /* mPaas */,
+				2DE2CF86852E9CE48C3594A4 /* APMobileFramework */,
+			);
+			path = mpaas_react_appTests;
+			sourceTree = "<group>";
+		};
+		55502DEDE4F60075401B8317 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				324FEC2F07570D22482F52F4 /* mpaas_react_app */,
+				405B8AC54CD9C8B7525B01FE /* mpaas_react_appTests */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		5A496FBCA6AC95F9D0E1CABC /* mPaas */ = {
+			isa = PBXGroup;
+			children = (
+				06E066E43FF0C2B03EC787E1 /* MPaaSInterface+mpaas_react_app.h */,
+				7DB1B1C47DBDAC84CC88E3F3 /* MPaaSInterface+mpaas_react_app.m */,
+			);
+			path = mPaas;
+			sourceTree = "<group>";
+		};
+		7C827617BB2FDAA2458204AD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				815F35BF6F7852823D1E336D /* CoreTelephony.framework */,
+				67449FD4D7855BDA950A37EC /* SystemConfiguration.framework */,
+				E4146855BFA45E67D3E30EB5 /* MessageUI.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* mpaas_react_app */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* mpaas_react_appTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				25792374E72323AFF76B114A /* MPaaS */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* mpaas_react_app.app */,
+				00E356EE1AD99517003FC87E /* mpaas_react_appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-mpaas_react_app.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-mpaas_react_app.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-mpaas_react_app-mpaas_react_appTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-mpaas_react_app-mpaas_react_appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE478A33969CB556FEB7ABC0 /* mPaas */ = {
+			isa = PBXGroup;
+			children = (
+				D42E77EC1511D052C7751FDE /* MPaaSInterface+mpaas_react_appTests.h */,
+				3B24761D263F3DE306F38016 /* MPaaSInterface+mpaas_react_appTests.m */,
+			);
+			path = mPaas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* mpaas_react_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mpaas_react_appTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = mpaas_react_appTests;
+			productName = mpaas_react_appTests;
+			productReference = 00E356EE1AD99517003FC87E /* mpaas_react_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* mpaas_react_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mpaas_react_app" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mpaas_react_app;
+			productName = mpaas_react_app;
+			productReference = 13B07F961A680F5B00A75B9A /* mpaas_react_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mpaas_react_app" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* mpaas_react_app */,
+				00E356ED1AD99517003FC87E /* mpaas_react_appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB570812139F3E1909F23E8 /* meta.config in Resources */,
+				2FD89DF88B22C843F0BCD7E5 /* yw_1222.jpg in Resources */,
+				4D4991195821F34C0B417934 /* MobileRuntime.plist in Resources */,
+				5CDC0354646AB535A9E8A6CA /* Images_mPaaS.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7B1923D50918F3572A500687 /* meta.config in Resources */,
+				C5169C241C339351BA2305CF /* yw_1222.jpg in Resources */,
+				458B3970251EC766DC660B1F /* MobileRuntime.plist in Resources */,
+				4DD30F7819B06A94C9209348 /* Images_mPaaS.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mpaas_react_app-mpaas_react_appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mpaas_react_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mpaas_react_app/Pods-mpaas_react_app-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mpaas_react_app/Pods-mpaas_react_app-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mpaas_react_app/Pods-mpaas_react_app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mpaas_react_app-mpaas_react_appTests/Pods-mpaas_react_app-mpaas_react_appTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mpaas_react_app-mpaas_react_appTests/Pods-mpaas_react_app-mpaas_react_appTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mpaas_react_app-mpaas_react_appTests/Pods-mpaas_react_app-mpaas_react_appTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* mpaas_react_appTests.m in Sources */,
+				B8526D97FD41F4E06CAC5908 /* MPaaSInterface+mpaas_react_appTests.m in Sources */,
+				40BD4E855F83C49ABF18E45F /* DTFrameworkInterface+mpaas_react_appTests.m in Sources */,
+				EE33E9ED0E6FFD11D35FED95 /* MPLauncherAppDelegate.m in Sources */,
+				6FC16EFFC42D175AFE97D45A /* MPTabBarController.m in Sources */,
+				5CE57A6B7241B7B7DA431B87 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				C8B2B249FD32AEEE4D179717 /* MPaaSInterface+mpaas_react_app.m in Sources */,
+				0B7EE4416E18238AB31B78E6 /* DTFrameworkInterface+mpaas_react_app.m in Sources */,
+				B2C482B34A10A2F3BCC90468 /* MPLauncherAppDelegate.m in Sources */,
+				764BE1EF91FC29C3146070AA /* MPTabBarController.m in Sources */,
+				252448F92823CA8300DA50DB /* CustomNavigationController.m in Sources */,
+				7FD1CCE8173C19849F3B4A07 /* DemoViewController.m in Sources */,
+				252448FC2823CC9E00DA50DB /* RCTMiniAppModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* mpaas_react_app */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-mpaas_react_app-mpaas_react_appTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mpaas_react_appTests/mpaas_react_appTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mpaas_react_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mpass-expo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mpaas_react_app.app/mpaas_react_app";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-mpaas_react_app-mpaas_react_appTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mpaas_react_appTests/mpaas_react_appTests-Prefix.pch";
+				INFOPLIST_FILE = mpaas_react_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mpass-expo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mpaas_react_app.app/mpaas_react_app";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-mpaas_react_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mpaas_react_app/mpaas_react_app-Prefix.pch";
+				INFOPLIST_FILE = mpaas_react_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mpass-expo-app";
+				PRODUCT_NAME = mpaas_react_app;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-mpaas_react_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mpaas_react_app/mpaas_react_app-Prefix.pch";
+				INFOPLIST_FILE = mpaas_react_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mpass-expo-app";
+				PRODUCT_NAME = mpaas_react_app;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mpaas_react_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mpaas_react_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mpaas_react_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

@@ -1,0 +1,14 @@
+//
+//  mpaas_react_app-Prefix.pch
+//  mpaas_react_app
+//
+//  Created by marcuscheung on 2022/05/05.
+
+// MPAAS HEADERS BEGIN
+// This part is maintained by MPaaS plugin automatically. 
+#ifdef __OBJC__
+
+#import "mpaas_react_app-mPaaS-Headers.h"
+
+#endif
+// MPAAS HEADERS END
